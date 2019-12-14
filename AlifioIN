@@ -1,0 +1,243 @@
+#!/bin/bash
+# Pembuat : Tn.Alifio
+# Mau Ngapain Lu Kesini Tanpa Izin Tn.Alifio
+# Programmer Itu Bukan Hasil Recode Tapi Hasil Motivasi
+###########################################
+clear
+
+#Color
+b='\033[34;1m'
+g='\033[32;1m'
+p='\033[35;1m'
+c='\033[36;1m'
+r='\033[31;1m'
+w='\033[37;1m'
+y='\033[33;1m'
+echo "   ██▀▀▀▀███▀▀▀▀███▀▀▀▀██ "
+sleep 1
+echo "   █┌─┐┌─┐█┌─┐┌─┐█┌─┐┌─┐█ "
+sleep 1
+echo "   █└─┘└─┘█└─┘└─┘█└─┘└─┘█ "
+sleep 1
+echo "   ██▌└┘▐███▌└┘▐███▌└┘▐██ "
+sleep 1
+echo "   ██┼┼┼┼███┼┼┼┼███┼┼┼┼██ "
+sleep 1
+echo "   ██▄▄▄▄███▄▄▄▄███▄▄▄▄██ "
+      sleep 1
+      echo "${r}#selamat Datang....."
+      sleep 1
+      echo "${r}#Di tools Tn.alifio "
+      sleep 1
+      echo "${y}#Termux Player... "
+      sleep 1
+      clear
+
+ulang="y"
+while [ $ulang = "y" ];
+do
+  echo "${b}<════════════════════════════════════════════>"
+  echo "${r}    ⎈Author:TN.AlifioGans⎈"
+  echo "${g}    Wa : 081211912925"
+  echo "${y}    Thanks : Ga Ada Saya Solo Player:v"
+  echo "${w}    🅃🄾🄾🄻🅂 🅃🄴🅁🄼🅄🅇 🄸🄽🅂🅃🄰🄻🄻🄴🅁"
+  echo "${b}<════════════════════════════════════════════>"  
+  echo "${b}---(A)---(L)---(I)---(F)---(I)---(O)"
+  sleep 1
+  echo "${g}[1] install tools spam call"
+  echo "[2] install metasploit"
+  echo "[3] install crack Fb "
+  echo "[4] install Hack-pulsa "
+  echo "[5] install RED_HAWK "
+  echo "[6] install Hack-Wifi(Root) "
+  echo "[7] install hack-IG "
+  echo "[8] install Hek-Nasa "
+  echo "[9] install Hack-CCTV "
+  echo "[10] install Lacak-Ip "
+  echo "[11] install Bucin:v "
+  echo "${y}[ # ] exit"
+  echo "${b}ᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚᚚ"
+  read -p "Pilih Toolsnya Gan --> : " pilih;
+  if [ $pilih = "1" ];
+  then
+      echo "install Spam Call "
+      cd $HOME
+      apt update && apt upgrade -y
+      apt install git
+      apt install php
+      git clone https://github.com/siputra12/prank
+      cd prank
+      ls
+      php wa.php
+      sleep 1
+  elif [ $pilih = "2" ];
+  then
+      echo "install Metasploit "
+      pkg update && pkg upgrade
+      pkg install wget
+      wget https://5hady.github.io/metasploit.sh
+      bash metasploit.sh
+      msfconsole
+      sleep 2
+  elif [ $pilih = "3" ];
+  then
+      echo "install CrackFB Massal "
+      cd $HOME
+      pkg update && pkg upgrade
+      pkg install curl git python2
+      pkg install git
+      pkg install python2
+      pip2 install mechanize
+      pip2 install requests
+      git clone https://github.com/UziBorot/fbhack/
+      ls
+      cd fbhack
+      python2 fbhack.py
+      sleep 2
+  elif [ $pilih = "4" ];
+  then
+       echo "install Hack-PulsaFree "
+       cd $HOME
+       apt update && apt upgrade
+       apt install php
+       apt install toilet
+       apt install git
+       git clone https://github.com/MrUncle/PulsaGratis
+       cd PulsaGratis
+       chmod +x *
+       ls
+       sh Pulsa.sh
+       sleep 2
+  elif [ $pilih = "5" ];
+  then
+      echo "install RED_HAWK "
+      cd $HOME
+      pkg install php
+      pkg install curl
+      git clone https://github.com/Tuhinshubhra/RED_HAWK
+      ls
+      cd RED_HAWK
+      php rhawk.php
+      sleep 2
+  elif [ $pilih = "6" ];
+  then
+      echo "install Hack-Wifi(root) "
+      cd $HOME
+      pkg update && pkg upgrade
+      pkg install python2
+      pkg install git
+      git clone https://github.com/derv82/wifite
+      ls
+      cd wifite
+      python2 wifite.py
+      sleep 2
+  elif [ $pilih = "7" ];
+  then
+      echo "install Hack-IG "
+      cd $HOME
+      apt update && apt upgrade
+      pkg install bash
+      pkg install python2
+      pkg install git
+      pip2 install requests
+      pip2 install mechanize
+      git clone https://github.com/storiku/instahack
+      ls
+      cd instahack
+      bash ig.sh
+      sleep 2
+  elif [ $pilih = "8" ];
+  then
+      echo "${r}================================================"
+      echo "Sedang Install Hek-Nasa (Siap² kedatangan FBI) "
+      echo "${r}================================================"
+      cd $HOME
+      sleep 2
+      clear
+      echo "
+      ██▀▀▀▀███▀▀▀▀███▀▀▀▀██
+      █┌─┐┌─┐█┌─┐┌─┐█┌─┐┌─┐█
+      █└─┘└─┘█└─┘└─┘█└─┘└─┘█
+      ██▌└┘▐███▌└┘▐███▌└┘▐██
+      ██┼┼┼┼███┼┼┼┼███┼┼┼┼██
+      ██▄▄▄▄███▄▄▄▄███▄▄▄▄██
+      -- Sedang Hack Nasa...-- "
+      sleep 2
+      echo
+      sleep 2
+      echo "-Sedang Mendapatkan Akses Masuk..- "
+      sleep 2
+      echo "-Telah Mendapatkan Akses Masuk..- "
+      sleep 2
+      echo "..............................."
+      sleep 2
+      clear
+      echo "- Situs Nasa Berhasil Di Hack..-"
+      sleep 2
+      echo
+      echo "- Sedang Menyembunyikan Ip Anda-"
+      sleep 2
+      echo "──▄────▄▄▄▄▄▄▄────▄─── "
+      echo " Author : Tn.Alifio "
+      echo " Wa : 081211912925  "
+      echo " Ig : @tn.alifiogans"
+      echo "──▄────▄▄▄▄▄▄▄────▄─── "
+      echo "${y}. . . . . . . . . . . . .."
+      echo "- Berhasil Hack Situs Nasa...-"
+      echo "- Silahkan Lihat Situs Nasa..-"
+      sleep 2
+      clear
+  elif [ $pilih = "9" ];
+  then
+      echo "install Hack-CCTV....! "
+      cd $HOME
+      apt update && apt upgrade
+      pkg install python2
+      pkg install git
+      pip2 install requests
+      git clone https://github.com/kancotdiq/ipcs
+      ls
+      cd ipcs
+      python2 scan.py
+      sleep 2
+  elif [ $pilih = "10" ];
+  then
+      echo "install Lacak Ip...! "
+      cd $HOME
+      pkg install python2
+      pkg install git
+      git clone https://github.com/iexei/scanip
+      ls
+      cd scanip
+      python2 scan.py
+      sleep 2
+  elif [ $pilih = "11" ];
+  then
+      echo "install BUCIN...! "
+      cd $HOME
+      pkg update && pkg upgrade
+      pkg install cowsay
+      pkg install bash
+      pkg install toilet
+      pkg install lolcat
+      pkg install git
+      git clone https://github.com/alifiogans/PEKADONG
+      ls
+      cd bucin
+      sh bucin.sh
+      sleep 2
+  elif [ $pilih = "#" ];
+  then
+       echo "${r}#Terima kasih Sudah Menggunakan Tools Tn.alifio "
+       sleep 2
+       echo "${r}#Jangan Lupa Follow Ig saya @tn.alifiogans "
+       sleep 2
+       exit
+   else
+       echo "${y}ERROR GAN : Pilihan anda salah "
+       sleep 2
+       echo $ulang
+    fi
+  done
+ 
+
